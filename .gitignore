@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# TouchDesigner
+# プロジェクトファイル本体を除外
+*.toe
+*.toe~
+*.temp
+
+# バックアップフォルダを除外
+Backup/
+
+# 独自に作成したTouchDesigner用フォルダを除外
+touchdesigner/
